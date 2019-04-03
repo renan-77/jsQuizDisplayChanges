@@ -12,7 +12,6 @@ function startQuiz(){
 
 function getNextQuestion(){
     var hideNameInput = document.getElementById("nameInput");
-    var howManyQuestions = 0;
 
     if(isQuestionGenerated == true){
         document.getElementById("question1").style.display = "none";
@@ -41,6 +40,4 @@ function getNextQuestion(){
     selectedQuestion.style.display = "block";
 
     isQuestionGenerated = true;
-
-
 }
